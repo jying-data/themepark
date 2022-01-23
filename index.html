@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- header contents -->
+    <title>Welcome to Theme Park</title>
+    <meta charset = "UTF-8">
+    <meta name="description" content="This is a mock website for a fictional themepark.">
+    <meta name="keywords" content="Theme Park, Venue, Ticket Booking">
+    <meta name="author" content="Mock Theme Park">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    
+    <!-- loading custom css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- responsive navbar (navbar code referenced from https://codepen.io/mutedblues/pen/MmPNPG  -->
+     <header class="header">
+      <a href="#"><img id = "logoimg" src = "assets/images/sitelogo.png" alt = "site logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="news.html">Latest News</a></li>
+        <li><a href="tickets.html">Book Tickets</a></li>
+      </ul>
+    </header>
+
+    <!-- main site banner image and overlay -->
+    <section id="banner">
+        <img src = "assets/images/banner.png" alt = "main site banner"/>
+        <div class="overlay">
+            <h1>Welcome to Theme Park</h1>
+            <h3>Welcome message here. Advertising catchphrase. Few sentence blurb.<h3>
+            <a href="#news-btn" class="banner-btn">Latest News</a>
+            <a href="#booking-btn" class="banner-btn">Book Tickets</a>
+         
+      </div>
+    </section>
+    <!-- end of banner -->
+    
+    <!-- start of content container (limited max width) -->
+    <div class = "content">
+
+    <!-- overview section (main advertising area with brief highlight slogans and images) -->
+    <section id = "overview">
+        <div class="row">
+            <div class="overview-text">
+              <h1>Reason 1 for visiting theme park</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus sem, tincidunt in lorem fringilla, fermentum sagittis turpis. Nullam sit amet risus libero. Integer blandit tincidunt imperdiet. Integer accumsan odio justo, at hendrerit metus ullamcorper vitae. Nunc in erat eu diam varius ultricies non eget ipsum. Mauris ut massa felis. </p>
+            </div>
+            <div class="overview-img">
+                <img src="assets/images/placeholder image.png" alt="feature 1" />
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="overview-img">
+                <img src="assets/images/placeholder image.png" alt="feature 1" />
+            </div>
+            <div class="overview-text">
+              <h1>Reason 2 for visiting theme park</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra lectus mauris, non suscipit lacus rutrum sed. Maecenas elementum eros vitae luctus lobortis. Pellentesque luctus et lorem ut rhoncus. In hac habitasse platea dictumst. Pellentesque vel odio in ex dignissim pharetra eget eu purus. Nullam nec tellus vitae libero viverra. </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="overview-text">
+              <h1>Reason 3 for visiting theme park</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit mauris. Sed scelerisque, tellus in lacinia euismod, arcu ante dignissim orci, elementum sollicitudin nisi augue sed orci. Sed odio sem, vulputate pulvinar ultrices quis, mattis sed nibh. Maecenas non egestas enim, sed faucibus ex. Vestibulum nisl magna, dignissim et. </p>
+            </div>
+            <div class="overview-img">
+                <img src="assets/images/placeholder image.png" alt="feature 1" />
+            </div>
+        </div>
+    </section>
+    <!-- end of overview section -->
+
+    <hr>
+
+    <!-- highlights section (showcases featured attractions) -->
+    <section id = "highlights">
+        <h1>Check Out These Fun Activities</h2>
+        
+        <div class="row">
+            <!-- each feature highlight boxes takes up 1/3 of large screen and whole row of small screen -->
+            <!-- each feature highlight boxes contains an image, subheading, and short blurb -->
+            <div class="trio">
+                <img src="assets/images/placeholder image.png" alt="" />
+                <h3>Attraction 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed semper arcu. Praesent vitae molestie velit, in ornare nisi. Duis sed metus quis leo vestibulum rutrum eu et lectus. In sit amet augue sit amet lacus blandit varius ut quis ipsum. Nullam pulvinar dui ac vehicula interdum. Nunc facilisis sapien. 
+                </p>
+            </div>
+            
+            <div class="trio-center">
+                <img src="assets/images/placeholder image.png" alt="" />
+                <h3>Attraction 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis purus, non vulputate erat. Nam ut nulla accumsan, maximus nulla sit amet, porta est. Mauris feugiat, sapien sed vulputate fringilla, justo urna tincidunt purus, quis bibendum purus magna quis augue. Proin sed ex eu elit laoreet sodales. Phasellus ac. 
+                </p>
+            </div>
+
+            <div class="trio">
+                <img src="assets/images/placeholder image.png" alt="" />
+                <h3>Attraction 3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis tristique libero, at ultricies dui. Sed lorem justo, vehicula eleifend consequat mattis, ornare ac libero. Phasellus vel erat diam. Mauris et neque quam. Phasellus ac porttitor turpis, eget bibendum dui. Pellentesque pretium dolor vitae bibendum aliquam. Ut lacinia nulla magna. 
+                </p>
+            </div>            
+        </div>
+    </section>
+    <!-- end of highlights section -->
+    <div class="ticket-btn"><a href="tickets.html">Book Tickets Now</a></div>
+    
+    </div>
+    <!-- ends the content div -->
+<footer>
+    <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p><b>address:</b> 123 ABC Street, Some Town, A State</a></p>
+        <p><b>email:</b> <a href="mailto:themepark@themepark.com">themepark@themepark.com</a></p>
+        <p><b>phone:</b> 123-456-7890</p>
+    </div>
+    <div class="footer-col">
+        <h4>Site Map</h4>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Latest News</a></p>
+        <p><a href="#">Book Tickets</a></p>
+    </div>
+</footer>
+    </body>
+  
+  
+

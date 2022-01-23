@@ -1,0 +1,397 @@
+/* shared */
+
+hr {
+    margin: 10px 0px;
+    border-top: 2px ridge;
+    color: #cad8e8;
+}
+
+#logoimg {
+    max-height: 50px;
+    width: auto;
+    margin-top: auto;}
+    
+.content {
+    margin:    0 auto;
+    padding: 0px 20px;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.row > .overview-img {
+    width: 33.33%;
+}
+
+.row > .overview-text {
+    width: 66.67%;
+}  
+
+.overview-img > img {
+    width: 90%;
+    padding: 0px 10px 0px 10px ;
+}
+
+.banner-btn, .ticket-btn{
+    transition: color .2s ease-in-out background .2s ease-in-out; 
+    color: #fff;
+    background: linear-gradient(90deg, #84CEEB, #5AB9EA);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.banner-btn:hover, .ticket-btn:hover{
+    color: #cccccc;
+    background: linear-gradient(90deg, #6bd2fa, #38b9fa);
+}         
+   
+.ticket-btn, #pay-btn{
+    text-align: center;   
+}   
+.ticket-btn > a{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+.footer-col{
+    text-align: center;
+    display:inline-block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #f4f4f4;
+}
+
+#blocker {
+height: 100px;
+}
+
+
+
+
+
+ #banner {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    padding-top: 60px;
+    margin: auto;
+    margin-bottom: 50px;
+ }
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.15); 
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: 	#fff;
+  text-shadow: 2px 2px #046595;
+  font-size: 20px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+top: 20%;
+height: 60%;
+}
+
+.footer-col, .footer-col > p > a {
+    color: #1a1a1a;
+}
+
+@media (min-width: 768px) { 
+ #banner img {
+    max-width: 1200px;
+    }
+ .overlay {
+
+    }
+    
+ .footer-col {
+    width: 48%;
+}
+
+
+ }
+ 
+@media (max-width: 767px) { 
+ #banner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  }
+ .overlay {
+     position: absolute;
+    margin: auto 0px auto 0px ;
+    }
+    .footer-col {
+    width: 100%;
+}
+ }
+ 
+ #news-btn{
+position: absolute;
+left: 150px;
+}
+        
+      
+         
+#highlights > .row {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+footer {
+   width: 100%;
+   background: linear-gradient(95deg, #304d6d 3%, #82a0bc 20%, #a7cced 50%, #63adf2 70%, #545e75 96%);
+   margin-top: 5em;
+}
+
+@media (max-width: 768px) { 
+ .highlight-box {
+  margin: auto;
+  width: 100%;
+  }
+ }
+
+@media (min-width: 767px) { 
+ .highlight-box {
+    display: inline-block;
+    width: 28%;
+    text-align: left;
+    margin: 0 auto;
+  }
+ }
+ 
+.highlight-box{
+margin: 10px;
+padding: 10px;
+}   
+ 
+.trio > img, .trio-center > img {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+        
+@media (max-width: 768px) { 
+    .trio, .trio-center {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) { 
+    .trio {
+        width: 32%;
+        margin-bottom: 2%
+    }
+    
+    .trio-center {
+        width: 32%;
+        margin: 0 2% 2% 2%;
+    }     
+}           
+        
+
+/* news page */
+.news-large > h3{
+    text-align: center;
+}
+
+.news-large > img{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.read-more {
+    text-transform: uppercase;
+    color: #666666;
+    float: right;
+}
+
+h1, h2, h3 {
+    color: #36587c;
+    text-align: center;
+}
+
+.overlay > h1, .overlay > h2{
+    color: #fff;
+}
+        
+/* ticket page*/
+@media (max-width: 768px) { 
+    #basic-ticket, #premium-ticket {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) { 
+    #basic-ticket, #premium-ticket {
+        width: 50%;
+    }
+}       
+
+#pay-btn{
+    margin-top: 50px;
+}        
+
+#basic-ticket, #premium-ticket {
+    text-align: center;
+}
+
+#premium-ticket-header{
+    color: #e6ac00;
+}
+
+#basic-ticket-header{
+    color: #999999;
+}
+
+#basic-ticket > img, #premium-ticket > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}        
+        
+/* positions, size and background color of navbar  */
+.header {
+  background: linear-gradient(95deg, #304d6d 3%, #82a0bc 20%, #a7cced 50%, #63adf2 70%, #545e75 96%);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  z-index: 3;
+}
+
+/* aesthetics of the boxes for each navbar menu item */
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* aesthetics of navbar menu links */
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #cce6ff;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #cce6ff;
+  text-decoration: underline;
+}
+
+/* hide the small screen menu by default */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* aesthetics of hambuerger icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
