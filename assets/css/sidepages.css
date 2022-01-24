@@ -1,0 +1,57 @@
+/* news page */
+.news-large > h3{
+    text-align: center;
+}
+
+.news-large > img{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.read-more {
+    text-transform: uppercase;
+    color: #666666;
+    float: right;
+}
+
+.overlay > h1, .overlay > h2{
+    color: #fff;
+}
+        
+/* ticket page*/
+@media (max-width: 768px) { 
+    #basic-ticket, #premium-ticket {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) { 
+    #basic-ticket, #premium-ticket {
+        width: 50%;
+    }
+}       
+
+#pay-btn{
+    margin-top: 50px;
+}        
+
+#basic-ticket, #premium-ticket {
+    text-align: center;
+}
+
+#premium-ticket-header{
+    color: #e6ac00;
+}
+
+#basic-ticket-header{
+    color: #999999;
+}
+
+#basic-ticket > img, #premium-ticket > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}        

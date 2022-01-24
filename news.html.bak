@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- header contents -->
@@ -11,7 +11,8 @@
     <meta name="refresh" content="600">
     
     <!-- loading custom css stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/shared.css">
+    <link rel="stylesheet" href="assets/css/sidepages.css">
 </head>
 <body>
     <!-- responsive navbar (navbar code referenced from https://codepen.io/mutedblues/pen/MmPNPG  -->
@@ -41,6 +42,7 @@
             <p>Nam vehicula consequat arcu quis accumsan. Nam fringilla odio sed ex mattis pharetra. In quis facilisis est, at hendrerit odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla aliquam dignissim. Sed porta quis eros quis sollicitudin. Donec non eleifend urna, quis cursus nunc. Phasellus ipsum lacus, tempor elementum mi et, pellentesque auctor dui. Nulla elementum nulla velit, vitae pulvinar sapien egestas at. Curabitur fringilla ex in orci gravida, at interdum lorem lobortis. Maecenas a tortor sapien. Aliquam accumsan interdum felis, et tempus sem mattis id. Etiam venenatis sapien sit amet est ornare pretium. Suspendisse risus velit, luctus quis eros sit amet, varius ornare nunc. Pellentesque maximus turpis pharetra ullamcorper molestie. Suspendisse potenti.</p>
         </div>
 
+        <hr>
         <div class = "row">
             <div class="trio">
                 <h3>Past Event News 1</h3>

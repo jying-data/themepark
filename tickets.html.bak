@@ -63,6 +63,8 @@
                     <li>Basic feature 1</li>
                     <li>Basic feature 2</li>
                     <li>Basic feature 3</li>
+                    <li>Basic feature 4</li>
+                    <li>Basic feature 5</li>
                 </ul>
                 <label for="cars">Select Number of Tickets:</label>
                 <select name = "ticket-select-2">
