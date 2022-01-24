@@ -35,10 +35,42 @@
 
 #pay-btn{
     margin-top: 50px;
-}        
+    transition: color .2s ease-in-out background .2s ease-in-out; 
+    color: #fff;
+    background: linear-gradient(90deg, #84CEEB, #5AB9EA);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center; 
+}
+
+#pay-btn:hover{
+    color: #e6ac00;
+    background: linear-gradient(90deg, #53caf9, #1fb1f9);
+}         
+   
+#pay-btn > a{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#pay-btn > a:hover{
+    color: #e6ac00;
+}      
 
 #basic-ticket, #premium-ticket {
     text-align: center;
+    display: inline-block;
+}
+
+#basic-ticket>ul, #premium-ticket>ul {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: -60px; 
 }
 
 #premium-ticket-header{
@@ -55,3 +87,4 @@
   margin-right: auto;
   width: 50%;
 }        
+

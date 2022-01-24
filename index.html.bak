@@ -11,9 +11,10 @@
     <meta name="refresh" content="600">
     
     <!-- loading custom css stylesheet -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/shared.css">
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
     <!-- responsive navbar (navbar code referenced from https://codepen.io/mutedblues/pen/MmPNPG  -->
      <header class="header">
@@ -27,20 +28,19 @@
       </ul>
     </header>
 
+    <!-- a blank div placeholder to shift contents down to not be covered by navbar -->
     <div id = "blocker">&nbsp;</div>
+    
     <!-- main site banner image and overlay -->
     <section id="banner">
         <img src = "assets/images/banner.png" alt = "main site banner"/>
         <div class="overlay">
             <h1>Welcome to Theme Park</h1>
             <h3>Welcome message here. Advertising catchphrase. Few sentence blurb.<h3>
-            <a href="#news-btn" class="banner-btn">Latest News</a>
-            <a href="#booking-btn" class="banner-btn">Book Tickets</a>
-         
+            <a href="tickets.html" class="button-link" id="banner-ticket-btn">Book Tickets</a>
       </div>
     </section>
     <!-- end of banner -->
-    
     
     <!-- start of content container (limited max width) -->
     <div class = "content">
@@ -84,10 +84,10 @@
     <!-- highlights section (showcases featured attractions) -->
     <section id = "highlights">
         <h1>Check Out These Fun Activities</h2>
-        
+
         <div class="row">
-            <!-- each feature highlight boxes takes up 1/3 of large screen and whole row of small screen -->
-            <!-- each feature highlight boxes contains an image, subheading, and short blurb -->
+            <!-- each feature highlight takes up 1/3 of large screen and whole row of small screen -->
+            <!-- each feature highlight contains an image, subheading, and short blurb -->
             <div class="trio">
                 <img src="assets/images/attractions.png" alt="" />
                 <h3>Attraction 1</h3>
@@ -114,24 +114,37 @@
         </div>
     </section>
     <!-- end of highlights section -->
-    <div class="ticket-btn"><a href="tickets.html">Book Tickets Now</a></div>
+    
+    <!-- big button for buying ticket after showcasing the attractions -->
+    <div class="button-div" id="ticket-btn"><a href="tickets.html">Book Tickets Now</a></div>
     
     </div>
     <!-- ends the content div -->
-<footer>
-    <div class="footer-col">
-        <h4>Contact Us</h4>
-        <p><b>address:</b> 123 ABC Street, Some Town, A State</a></p>
-        <p><b>email:</b> <a href="mailto:themepark@themepark.com">themepark@themepark.com</a></p>
-        <p><b>phone:</b> 123-456-7890</p>
-    </div>
-    <div class="footer-col">
-        <h4>Site Map</h4>
-        <p><a href="#">Home</a></p>
-        <p><a href="#">Latest News</a></p>
-        <p><a href="#">Book Tickets</a></p>
-    </div>
-</footer>
+    
+    <!-- footer section with contact info and site maps -->
+    <footer>
+        <div class = "row">
+            <div class="trio footer-col">
+                <h4>Contact Us</h4>
+                <p><b>address:</b> 123 ABC Street, Some Town, A State</a></p>
+                <p><b>email:</b> <a href="mailto:themepark@themepark.com">themepark@themepark.com</a></p>
+                <p><b>phone:</b> 123-456-7890</p>
+            </div>
+            
+            <div class="trio-center footer-col">
+                <h4>Venue Hours</h4>
+                <p>Mon-Fri: 9am - 5pm</p>
+                <p>Sat-Sun: 6am - 10pm</p>
+            </div>
+            
+            <div class="trio footer-col">
+                <h4>Site Map</h4>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Latest News</a></p>
+                <p><a href="#">Book Tickets</a></p>
+            </div>
+        </div>
+    </footer>
     </body>
   
   

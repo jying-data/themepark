@@ -32,42 +32,15 @@ footer {
    width: 100%;
    background: linear-gradient(95deg, #304d6d 3%, #82a0bc 20%, #a7cced 50%, #63adf2 70%, #545e75 96%);
    margin-top: 5em;
+   padding-left: 10px;
+   padding-right: 10px;
 }
 
 .footer-col, .footer-col > p > a {
-    color: #1a1a1a;
-}
-
-.footer-col{
+    color: #b38600;
     text-align: center;
-    display:inline-block;
-}  
-
-.banner-btn, .ticket-btn{
-    transition: color .2s ease-in-out background .2s ease-in-out; 
-    color: #fff;
-    background: linear-gradient(90deg, #84CEEB, #5AB9EA);
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    font-size: 30px;
-    text-decoration: none;
 }
 
-.banner-btn:hover, .ticket-btn:hover{
-    color: #cccccc;
-    background: linear-gradient(90deg, #6bd2fa, #38b9fa);
-}         
-   
-.ticket-btn, #pay-btn{
-    text-align: center;   
-}   
-.ticket-btn > a{
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-}
 
 #logoimg {
     height: 50px;
@@ -84,10 +57,34 @@ footer {
     width: 100%;
     margin: 0 0 2em 0;
 }
-       
+   
+.button-link, .button-div{
+    transition: color .2s ease-in-out background .2s ease-in-out; 
+    color: #fff;
+    background: linear-gradient(90deg, #84CEEB, #5AB9EA);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center; 
+}
 
+.button-div>a{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px #046595;
+}
+.button-link:hover, .button-div:hover{
+    background: linear-gradient(90deg, #53caf9, #1fb1f9);
+}
 
-        
+.button-link:hover, .button-div>a:hover{
+    color: #e6ac00;
+}
+   
 /* positions, size and background color of navbar  */
 .header {
   background: linear-gradient(95deg, #304d6d 3%, #82a0bc 20%, #a7cced 50%, #63adf2 70%, #545e75 96%);
@@ -120,7 +117,7 @@ footer {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #cce6ff;
+  background: linear-gradient(90deg, #6bd2fa, #38b9fa);
   text-decoration: underline;
 }
 
@@ -205,10 +202,6 @@ footer {
         width: 32%;
         margin: 0 2% 2% 2%;
     }   
-    
-    .footer-col {
-        width: 48%;
-    }
     
     .header li {
         float: left;
